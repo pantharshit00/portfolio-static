@@ -1,0 +1,43 @@
+.skills {
+  padding: calculateRem(12px) calculateRem(24px) calculateRem(12px)
+    calculateRem(24px);
+  & > h1 {
+    text-align: center;
+  }
+}
+
+.skills_container {
+  display: grid;
+  grid-gap: calculateRem(12px);
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.border-brand {
+  border-top: 8px solid;
+  &__js {
+    border-color: $node;
+  }
+  &__react {
+    border-color: $react;
+  }
+  &__vue {
+    border-color: $vue;
+  }
+  &__angular {
+    border-color: $angular;
+  }
+  &__python {
+    border-color: $python;
+  }
+  &__db {
+    border-color: $db;
+  }
+  &__php {
+    border-color: $php;
+  }
+}
+
+.brand-icon {
+  max-width: 100%;
+  height: auto;
+}

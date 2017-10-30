@@ -7,10 +7,79 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sass Starter</title>
     <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
 </head>
 
 <body>
-    <h1>Hi</h1>
+    <nav class="topnav">
+        <div class="navbase">
+            <ul class="navlist">
+                <li>
+                    <a href="#" class="link link__navbar">Home</a>
+                </li>
+                <li>
+                    <a href="#" class="link link__navbar">Bio</a>
+                </li>
+            </ul>
+        </div>
+        <div class="navbase title">HP</div>
+        <div class="navbase">
+            <ul class="navlist">
+                <li>
+                    <a href="#" class="link link__navbar">Blog</a>
+                </li>
+                <li>
+                    <a href="#" class="link link__navbar">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="hero">
+        <div class="myImage">
+            <img class="myImage" src="https://avatars3.githubusercontent.com/u/22195362?v=4" />
+        </div>
+        <div class="intro">
+            <h1>I am Harshit Pant</h1>
+            <h4>I am a fullstack web developer. I make excellent websites.</h4>
+        </div>
+    </div>
+    <div class="skills">
+        <h1>Skills</h1>
+        <div class="skills_container">
+            <div class="card border-brand border-brand__js">
+                <h3>Node JS</h3>
+                <img class="brand-icon" src="/static/img/node.png" alt="">
+            </div>
+            <div class="card border-brand border-brand__react">
+                <h3>React</h3>
+                <img class="brand-icon" src="/static/img/react.png" alt="">
+            </div>
+            <div class="card border-brand border-brand__vue">
+                <h3>Vue</h3>
+                <img class="brand-icon" src="/static/img/vue.png" alt="">
+            </div>
+            <div class="card border-brand border-brand__angular">
+                <h3>Angular</h3>
+                <img class="brand-icon" src="/static/img/angular.svg" alt="">
+            </div>
+            <div class="card border-brand border-brand__socket">
+                <h3>Socket IO and WebRTC</h3>
+                <img class="brand-icon" src="/static/img/socket.svg" alt="">
+            </div>
+            <div class="card border-brand border-brand__python">
+                <h3>Python</h3>
+                <img class="brand-icon" src="/static/img/python.png" alt="">
+            </div>
+            <div class="card border-brand border-brand__php">
+                <h3>PHP</h3>
+                <img src="/static/img/php.png" alt="" class="brand-icon">
+            </div>
+            <div class="card border-brand border-brand__db">
+                <h3>DB Administration</h3>
+                <img src="/static/img/db.png" alt="" class="brand-icon">
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

@@ -1,0 +1,10 @@
+.link {
+  text-decoration: none;
+  &__navbar {
+    font-family: "Quicksand", sans-serif;
+    font-size: calculateRem(24px);
+    font-weight: 300;
+    color: $white;
+    margin-left: calculateRem(12px);
+  }
+}

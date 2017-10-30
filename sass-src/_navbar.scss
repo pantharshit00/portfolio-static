@@ -1,0 +1,28 @@
+.topnav {
+  display: grid;
+  grid-template-columns: 30% auto 30%;
+  padding: calculateRem(6px) 0 calculateRem(6px) 0;
+  background-color: $brand_color;
+  position: fixed;
+  width: 100%;
+}
+
+.navbase {
+  justify-self: center;
+}
+
+.navlist {
+  margin: calculateRem(6px);
+  list-style: none;
+  display: flex;
+  li {
+    padding: calculateRem(6px);
+  }
+}
+
+.title {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bolder;
+  font-size: calculateRem(42px);
+  color: $white;
+}
